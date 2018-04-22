@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Focus Mode</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="options.css">
+	</head>
+
+	<body>
+		<header>Focus Mode Beta</header>
+		<h2>This simple extension cleans up webpages of distracting elements when you require focus.<br> Some webpages do not render properly with this extension. You may wish to disable the extension for the site by clicking the disable extension button. </h2>
+        <h1>Time Remaining:</h1>
+        <p id="time_shown"></p>
+          
+		<form onsubmit="Activate()">
+			<label>Time(min): <input type="number" name="time_min" title="Please input the amount of time you wish to focus" required></label>
+			<input id="activate" type="submit" value="Activate">
+		</form>
+		<button class="disable_site">Disable for this site</button>
+
+		<script src="options.js"></script>
+	</body>
+</html>

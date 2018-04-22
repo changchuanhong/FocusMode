@@ -1,0 +1,26 @@
+body{
+	text-align: center;
+	background: #dbdcdd; /*light grey*/
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #000000; 
+  font-weight: 100;
+  font-size: 20px;
+} 
+
+p{
+    background: #FF3F80; /*pink*/
+    height:40px;
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#time_shown{
+    color: #ffffff;
+    font-size: 20px;
+}

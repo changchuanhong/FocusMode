@@ -1,0 +1,49 @@
+/*TODO: Add rules for other elements*/
+
+body {
+    font-family: sans-serif;
+    line-height: 1.75em;
+    font-size: 20px;
+    color: #282828;
+    background-color: #e2e2e2;
+}
+
+/*Attempt to generically remove social media buttons*/
+[class *= "facebook"],
+[class *= "twitter"],
+[class *= "pintrest"],
+[class *= "messenger"],
+[class *= "whatsapp"],
+[class *= "email"],
+[class *= "share"],
+[class *= "sharing"],
+[class *= "social"],
+[class *= "follow"],
+[class *= "newsletter"] {
+    display: none;
+}
+
+
+form {
+    display: none;
+}
+
+p {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+header {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+footer {
+    display: none;
+}
